@@ -1,3 +1,10 @@
-@mixin container($colour: $colour-primary) {
-    background-color: $colour;
+@mixin btn ($colour-btn: $cd-btn, $colour-txt: $cd-txt){
+    background-color: $colour-btn;
+    color: $colour-txt;
+   
+}
+
+@mixin form($colour-txt: $form-txt, $colour-form:$bg-form){
+    background-color: $colour-form;
+    border: 2px solid $colour-form;
 }

@@ -1,0 +1,36 @@
+.form {
+
+    &__group {
+        color: #6300a0;
+        @extend .font-form;
+
+        input {
+            border-radius: 100rem;
+            padding: 0.5rem 1.5rem;
+            font-size: 2.5rem;
+            outline: none;
+            width: 100%;
+            color: #6300a0;
+            
+            @include form;
+            
+            transition: background-color 500ms;
+           
+            
+
+            label {
+                padding-left: 5rem;
+            }
+
+            &:focus {
+                border: 2px solid #6300a0;
+            }
+
+            &:not(:focus):invalid {
+                background-color: #b20a37;
+                border: 2px solid #b20a37;
+                color: #fff;
+            }
+        }
+    }
+}
