@@ -1,3 +1,4 @@
-.container{
-    @include container
+.btn{
+    @include btn;
+    width: 15rem;
 }

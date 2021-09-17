@@ -1,4 +1,7 @@
-.container {
-  background-color: red;
+.btn {
+  background-color: #011c37;
+  color: #15dea5;
+  border: 1rem solid red;
+  width: 15rem;
 }
 /*# sourceMappingURL=main.css.map */
