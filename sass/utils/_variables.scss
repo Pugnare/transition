@@ -1,4 +1,5 @@
-$cd-btn: #011c37;
+/*----------------------------------- leçon 01 --------------------------------*/
+$cd-btn: #011c3f;
 $cd-txt: #15dea5;
 $bg-form: rgb(237,246,247);
 $form-txt: #6300a0;
@@ -6,4 +7,23 @@ $form-txt: #6300a0;
 .background_clr{
     background-color: $form-txt;
 }
+
+.espace_container{
+    border-style: solid;
+    border-color: black;
+    border-width: .5rem 0 .5rem 0;
+    padding: 5rem 0 5rem 0;
+
+}
+
+/*----------------------------------- leçon 02 --------------------------------*/
+
+$bg_2_start: rgba(1,28,55,0);
+$bg_2_end : rgba(1,28,55,1);
+
+$color_leçon_2:(
+    color-bg_end: $bg_2_end,
+    color-bg_start: $bg_2_start,
+    color-txt: $cd-txt
+)
   

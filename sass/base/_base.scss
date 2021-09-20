@@ -1,10 +1,11 @@
 .container{
-    width: 60%;
+    @extend .espace_container;
    margin: 0 auto;
    
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
     
      .btn{
          margin-bottom: 5rem;
@@ -16,4 +17,20 @@
             flex-direction: column;
         }
     }
+}
+
+.container_02{
+    @extend .espace_container;
+    margin-top: 10rem;
+}
+/*----------------------------------- leçon 03 --------------------------------*/
+.container_03{
+    @extend .espace_container;
+    margin-top: 10rem;
+}
+
+/*----------------------------------- leçon 04 --------------------------------*/
+.container_04{
+    @extend .espace_container;
+    margin-top: 10rem;
 }
